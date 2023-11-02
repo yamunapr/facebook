@@ -1,0 +1,50 @@
+Alert : (Pop,Window Based Pop,Alert)
+
+	It is a interface.
+
+	It is a non-inspect
+
+Types : 
+
+	Simple alert
+
+	Confirm alert 
+
+	Prompt alert 
+
+
+If alert is present we must switch to that alert.
+
+driver.switchTo().alert().
+
+Alert Methods : 
+
+		accept() -->Ok
+
+		dismiss()  --> Cancel
+
+		sendKeys() --> value passing
+
+		getText() --> return msg form alert box
+Simple Alert : 
+
+		It displays some information (or) warning in screen 
+
+		This popup has only a accept button.
+
+Confirm Alert :
+
+		It has a popup of both accept [ok] and dismiss [cancel] button .
+
+		We use accept for ok button.
+
+		We use dismiss for cancel button.
+		
+Prompt Alert :
+
+		it shows a message asking the user to send input 
+
+		After it returns the text we use accept or dismiss button.
+		
+ 
+		
