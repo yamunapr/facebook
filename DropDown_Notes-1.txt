@@ -60,6 +60,10 @@ deselectByValue()
 
 					  
 hiding the last seen
+Adding the video call features
+Adding the post the stories
+
+
 
 
 
