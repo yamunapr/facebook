@@ -1,0 +1,69 @@
+DropDown : 
+
+	  Single dropdown
+
+	  Multiple dropdown
+
+
+Select : 
+
+	Select is a class.
+
+Syntax : 
+
+	Select s = new Select(webelement);
+
+	
+Select Methods : 
+
+
+		selectByValue()
+
+		selectByIndex()
+
+		selectByVisibleText()
+
+		
+
+deselectByValue()
+
+		deselectByIndex()
+
+		deselectByVisibleText()
+
+		isMultiple() -- > To check the dropdown is single or multiple.
+
+		getOptions()  ---> 
+				It will return all the options in dropdown.
+
+				its return type is List<WebElement> 
+
+
+		getAllSelectedOptions() --> 
+
+					it will return all selected options in dropdown.
+
+					its return type is List<WebElement>.
+
+					it won't Accept in single dropdown.
+
+		getFirstSelectedOption() : 
+
+					It will return the first selected options in dropdown.
+
+					its return type is WebElement.
+
+					it will accept in single dropdown.
+
+
+		deselectAll() : It wont accept in single dropdown.
+
+					  
+
+
+
+
+
+
+ 
+		
